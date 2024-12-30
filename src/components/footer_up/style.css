@@ -1,0 +1,110 @@
+.main_container_footerup{
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #181A21;
+
+}
+
+.main_content_footerup_container{
+    padding-inline: 460px;
+    width: 100%;
+    height: auto;
+}
+
+.main_content_footerup{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.content_footerup_top{
+    width: 100%;
+    border-top: 1px solid #363c44;
+    border-bottom: 1px solid #363c44;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo_valve_new{
+    width: 88px;
+    height: 25px;   
+}
+.content_footerup_top_box_1{
+    padding-inline: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content_footerup_top_box_2{
+    padding-inline: 20px;
+}
+.text_content_footerup{
+    color: #8F98A0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 16px;
+}
+
+
+.footerup_content_box_1{
+    width: 300px;
+    display: grid;
+    justify-items: center;
+    height: 80px;
+}
+.footerup_content_box_2{
+    width: 300px;
+    height: 80px;
+}
+.href_registration_button_footerup{
+    border-radius: 2px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #75b022;
+    background: -webkit-linear-gradient(top, #75b022 5%, #588a1b 95%);
+    background: linear-gradient(to bottom, #75b022 5%, #588a1b 95%);
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-position: 25%;
+    background-size: 330% 100%;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 30px;
+    width: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.href_registration_button_footerup:hover{
+    background: linear-gradient(to right, #22a4ea 5%, #2f5eea 60%);
+}
+
+.title_footerup{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    font-family: sans-serif;
+}
+
+.description_signup_steam{
+    font-size: 14px;
+    color: #b8b6b4;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}

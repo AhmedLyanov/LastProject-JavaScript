@@ -1,0 +1,169 @@
+.store_steam_catalog_container{
+    background:#202c3c;
+    width: 1005;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.box_store_steam{
+    width: 1388px;
+    padding-top: 70px;
+}
+
+.title_store_catalog{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.catalog_box_cards_games{
+    width: 1388px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.image_product_element{
+    width: 409px;
+    height: 197px;
+}
+
+.card_game_container{
+    width: 409px;
+    height: 338.5px;
+    border-radius: 15px;
+    background-color:  #0d141c;
+    padding: 7px;
+}
+
+.image_game_box{
+    height: 197px;
+    background-image: url(../../media/game_image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title_game_card{
+    width: 100%;
+    padding-top: 15px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.os_image{
+    background-image: url(../../media/windows.png);
+    background-position: center;
+    background-size: cover;
+    width: 19.19px;
+    height: 20.84px;
+}
+
+.information_card_game_box{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.system_info_box{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.dedline_text{
+    color: #76808C;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+.card_game_container {
+    width: 409px;
+    height: 338.5px;
+    perspective: 1000px;
+}
+
+.card_inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+}
+
+.card_game_container:hover .card_inner {
+    transform: rotateY(180deg);
+}
+
+.card_front,
+.card_back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    background-color: #0d141c;
+    padding: 7px;
+}
+
+.card_back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game_video {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.back_like_button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.like_product_game_button_back_like_button{
+  
+}
+.back_like_button:hover {
+    color: red;
+}
+
+.like_product_game_button {
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.like_product_game_button:hover {
+    color: red;
+}
+.price_game_product{
+    color: #A1CD44;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.price_info_box{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.like_product_game_button{
+    width: 47px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1E2329;
+}

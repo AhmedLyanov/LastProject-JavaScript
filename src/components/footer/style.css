@@ -1,0 +1,76 @@
+.main_container_footer{
+    width: 100%;
+    height: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 0 60px 0;
+    margin: 0;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    background: #171a21;
+    display: flex;
+}
+
+.main_content_footer_container{
+    padding-inline: 460px;
+    width: 100%;
+    height: auto;
+}
+
+.main_content_footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+.content_footer_top{
+    width: 100%;
+    border-top: 1px solid #363c44;
+    border-bottom: 1px solid #363c44;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo_valve_new{
+    width: 88px;
+    height: 25px;   
+}
+.content_footer_top_box_1{
+    padding-inline: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content_footer_top_box_2{
+    padding-inline: 20px;
+}
+.text_content_footer{
+    color: #8F98A0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 16px;
+}
+
+.container_href_links_box{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.href_link_footer_bottom_content{
+    color: #C6D4DF;
+    text-decoration: none;
+}
+
+.href_link_footer_bottom_content:hover{
+    color: #eaeef0;
+}
+
+.stick_footer_text{
+    color: #61686D;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/motiva-sans');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+header{
+    width: 100%;
+    background: #171d25;
+}
+.content_header_box{
+    background: #171d25;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 940px;
+    height: 104px;
+    margin: 0px auto;
+    z-index: 402;
+    gap: 15px;
+}
+
+.href_nav_steam_header{
+    font-family: "Motiva Sans", sans-serif;
+    color: #dcdedf;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.href_nav_steam_header:hover{
+    color: #c4c4c4;
+}
+
+.login_steam_box_header{
+    width: 247px;
+    height: 24px;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    z-index: 401;
+   
+}
+
+.download_button_steam{
+    background-color: #5c7e10;
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-family: "Motiva Sans", sans-serif;
+    transition: 1s all;
+}
+
+.download_button_steam:hover{
+    background-color: #67900f;
+    cursor: pointer;
+}
+
+.href_login_button {
+    background: none;
+    border: none;
+    color: #b8b6b4;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.href_login_button:hover {
+    color: #ffffff;
+}
+
+.href_login_button{
+    color: #b8b6b4;
+    margin: 10px;
+    font-family: "Motiva Sans", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.href_login_button:hover{
+    color: #706f6e;
+}
+
+
+
+
+
+.href_registration_button {
+    background: none;
+    border: none;
+    color: #b8b6b4;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.href_registration_button:hover {
+    color: #ffffff;
+}
+
+.href_registration_button{
+    color: #b8b6b4;
+    margin: 10px;
+    font-family: "Motiva Sans", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.href_registration_button:hover{
+    color: #ffffff;
+}
